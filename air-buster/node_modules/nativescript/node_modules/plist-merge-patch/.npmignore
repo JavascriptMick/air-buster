@@ -1,8 +1,0 @@
-*.ts
-*.js.map
-*.tgz
-tslint.json
-tsconfig.json
-tsd.json
-!index.d.ts
-/tests
