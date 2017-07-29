@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/michael/Workspace/govhack_resprisk/air-buster/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/logo.png",
+        "source": "/Users/michael/Workspace/govhack_resprisk/air-buster/platforms/android/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/michael/Workspace/govhack_resprisk/air-buster/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/background.png",
+        "source": "/Users/michael/Workspace/govhack_resprisk/air-buster/platforms/android/src/main/res/drawable-hdpi/background.png"
+    },
+    {
+        "merged": "/Users/michael/Workspace/govhack_resprisk/air-buster/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/icon.png",
+        "source": "/Users/michael/Workspace/govhack_resprisk/air-buster/platforms/android/src/main/res/drawable-hdpi/icon.png"
+    }
+]

@@ -1,0 +1,4 @@
+#Sat Jul 29 13:17:34 AEST 2017
+base.0=/Users/michael/Workspace/govhack_resprisk/air-buster/platforms/android/build/intermediates/transforms/dex/F0/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/michael/Workspace/govhack_resprisk/air-buster/platforms/android/build/intermediates/transforms/dex/F0/debug/folders/1000/1f/main/classes.dex

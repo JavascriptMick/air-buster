@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <title>debug-android</title>
+  <link rel="shortcut icon" type="image/ico" href="../../../helpers/favicon.ico"/>
+  <meta http-equiv="content-type" value="text/html;utf-8">
+  <link rel="stylesheet" type="text/css" href="../../../../lib/common/docs/helpers/styles.css"/>
+</head>
+  <body>
+  <a href="../../index.html"><img class="logo" src="../../../helpers/logo.png"></a>
+   <h1 id="debug-android">debug android</h1>
+<table>
+<thead>
+<tr>
+<th>Usage</th>
+<th>Synopsis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Deploy on device/emulator, run the app, follow generated link to use in Chrome Developer Tools, and attach the debugger</td>
+<td><code>$ tns debug android</code></td>
+</tr>
+<tr>
+<td>Deploy on device/emulator, run the app and stop at the first code statement</td>
+<td><code>$ tns debug android --debug-brk [--device &lt;Device ID&gt;] [--timeout &lt;timeout&gt;]</code></td>
+</tr>
+<tr>
+<td>Deploy in the native emulator, run the app and stop at the first code statement</td>
+<td><code>$ tns debug android --debug-brk --emulator [--timeout &lt;timeout&gt;]</code></td>
+</tr>
+<tr>
+<td>Attach the debug tools to a running app on device/emulator</td>
+<td><code>$ tns debug android --start [--device &lt;Device ID&gt;] [--timeout &lt;timeout&gt;]</code></td>
+</tr>
+<tr>
+<td>Attach the debug tools to a running app in the native emulator</td>
+<td><code>$ tns debug android --start --emulator [--timeout &lt;timeout&gt;]</code></td>
+</tr>
+</tbody>
+</table>
+<p>Prepares, builds and deploys the project when necessary. Debugs your project on a connected device or emulator.
+While debugging, prints the output from the application in the console and watches for changes in your code. Once a change is detected, it synchronizes the change with the selected device and restarts the application.</p>
+<h3 id="options">Options</h3>
+<ul>
+<li><code>--device</code> - Specifies a connected device/emulator on which to debug the app.</li>
+<li><code>--emulator</code> - Specifies that you want to debug the app in the native Android emulator.</li>
+<li><code>--debug-brk</code> - Prepares, builds and deploys the application package on a device/emulator, generates a link for Chrome Developer Tools and stops at the first code statement.</li>
+<li><code>--start</code> - Attaches the debug tools to a deployed and running app.</li>
+<li><code>--timeout</code> - Sets the number of seconds that the NativeScript CLI will wait for the emulator/device to boot. If not set, the default timeout is 90 seconds.</li>
+<li><code>--no-watch</code> - If set, changes in your code will not be reflected during the execution of this command.</li>
+<li><code>--clean</code> - If set, forces rebuilding the native application.</li>
+</ul>
+<h3 id="attributes">Attributes</h3>
+<ul>
+<li><code>&lt;Device ID&gt;</code> is the device identifier or name of the target device as listed by <code>$ tns device android</code></li>
+</ul>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>You must have Chrome installed on your system.<br/></li>
+</ul>
+<h3 id="related-commands">Related Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="build.html">build</a></td>
+<td>Builds the project for the selected target platform and produces an application package that you can manually deploy on device or in the native emulator.</td>
+</tr>
+<tr>
+<td><a href="build-android.html">build android</a></td>
+<td>Builds the project for Android and produces an APK that you can manually deploy on device or in the native emulator.</td>
+</tr>
+<tr>
+<td><a href="debug.html">debug</a></td>
+<td>Debugs your project on a connected device or in a native emulator.</td>
+</tr>
+<tr>
+<td><a href="debug-ios.html">debug ios</a></td>
+<td>Debugs your project on a connected iOS device or in a native emulator.</td>
+</tr>
+<tr>
+<td><a href="deploy.html">deploy</a></td>
+<td>Builds and deploys the project to a connected physical or virtual device.</td>
+</tr>
+<tr>
+<td><a href="../../device/device.html">device</a></td>
+<td>Lists all connected devices/emulators.</td>
+</tr>
+<tr>
+<td><a href="../../device/device-android.html">device android</a></td>
+<td>Lists all connected devices/emulators for android.</td>
+</tr>
+<tr>
+<td><a href="run.html">run</a></td>
+<td>Runs your project on a connected device or in the native emulator for the selected platform.</td>
+</tr>
+<tr>
+<td><a href="run-android.html">run android</a></td>
+<td>Runs your project on a connected Android device or in a native Android emulator, if configured.</td>
+</tr>
+<tr>
+<td><a href="test-init.html">test init</a></td>
+<td>Configures your project for unit testing with a selected framework.</td>
+</tr>
+<tr>
+<td><a href="test-android.html">test android</a></td>
+<td>Runs the tests in your project on Android devices or native emulators.</td>
+</tr>
+</tbody>
+</table>
+
+  </body>
+</html>
+

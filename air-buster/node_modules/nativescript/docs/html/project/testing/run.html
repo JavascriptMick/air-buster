@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+  <title>run</title>
+  <link rel="shortcut icon" type="image/ico" href="../../../helpers/favicon.ico"/>
+  <meta http-equiv="content-type" value="text/html;utf-8">
+  <link rel="stylesheet" type="text/css" href="../../../../lib/common/docs/helpers/styles.css"/>
+</head>
+  <body>
+  <a href="../../index.html"><img class="logo" src="../../../helpers/logo.png"></a>
+   <h1 id="run">run</h1>
+<table>
+<thead>
+<tr>
+<th>Usage</th>
+<th>Synopsis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Run on all connected devices</td>
+<td><code>$ tns run [--release] [--justlaunch]</code></td>
+</tr>
+<tr>
+<td>Run on a selected connected device or running emulator. Will start emulator with specified <code>Device Identifier</code>, if not already running.</td>
+<td><code>$ tns run --device &lt;Device ID&gt; [--release] [--justlaunch]</code></td>
+</tr>
+</tbody>
+</table>
+<p>Runs your project on all connected devices or in native emulators for the selected platform. The command will prepare, build and deploy the app when necessary. By default listens for changes in your code, synchronizes those changes and refreshes all selected devices.</p>
+<h3 id="options">Options</h3>
+<ul>
+<li><code>--justlaunch</code> - If set, does not print the application output in the console.</li>
+<li><code>--release</code> - If set, produces a release build. Otherwise, produces a debug build.</li>
+<li><code>--device</code> - Specifies a connected device/emulator to start and run the app.</li>
+</ul>
+<h3 id="attributes">Attributes</h3>
+<ul>
+<li><code>&lt;Device ID&gt;</code> is the index or <code>Device Identifier</code> of the target device as listed by <code>$ tns device &lt;Platform&gt; --available-devices</code></li>
+</ul>
+<h3 id="command-limitations">Command Limitations</h3>
+<ul>
+<li>The command will work with all connected devices and running emulators on macOS. On Windows and Linux the command will work with Android devices only.</li>
+<li>In case a platform is not specified and there&#39;s no running devices and emulators, the command will fail.</li>
+</ul>
+<h3 id="related-commands">Related Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../publishing/appstore.html">appstore</a></td>
+<td>Lists applications registered in iTunes Connect.</td>
+</tr>
+<tr>
+<td><a href="../../publishing/appstore-upload.html">appstore upload</a></td>
+<td>Uploads project to iTunes Connect.</td>
+</tr>
+<tr>
+<td><a href="build-android.html">build android</a></td>
+<td>Builds the project for Android and produces an APK that you can manually deploy on device or in the native emulator.</td>
+</tr>
+<tr>
+<td><a href="build-ios.html">build ios</a></td>
+<td>Builds the project for iOS and produces an APP or IPA that you can manually deploy in the iOS Simulator or on device, respectively.</td>
+</tr>
+<tr>
+<td><a href="build.html">build</a></td>
+<td>Builds the project for the selected target platform and produces an application package that you can manually deploy on device or in the native emulator.</td>
+</tr>
+<tr>
+<td><a href="debug-android.html">debug android</a></td>
+<td>Debugs your project on a connected Android device or in a native emulator.</td>
+</tr>
+<tr>
+<td><a href="debug-ios.html">debug ios</a></td>
+<td>Debugs your project on a connected iOS device or in a native emulator.</td>
+</tr>
+<tr>
+<td><a href="debug.html">debug</a></td>
+<td>Debugs your project on a connected device or in a native emulator.</td>
+</tr>
+<tr>
+<td><a href="deploy.html">deploy</a></td>
+<td>Builds and deploys the project to a connected physical or virtual device.</td>
+</tr>
+<tr>
+<td><a href="run-android.html">run android</a></td>
+<td>Runs your project on a connected Android device or in a native Android emulator, if configured.</td>
+</tr>
+<tr>
+<td><a href="run-ios.html">run ios</a></td>
+<td>Runs your project on a connected iOS device or in the iOS Simulator, if configured.</td>
+</tr>
+<tr>
+<td><a href="test-init.html">test init</a></td>
+<td>Configures your project for unit testing with a selected framework.</td>
+</tr>
+<tr>
+<td><a href="test-android.html">test android</a></td>
+<td>Runs the tests in your project on Android devices or native emulators.</td>
+</tr>
+<tr>
+<td><a href="test-ios.html">test ios</a></td>
+<td>Runs the tests in your project on iOS devices or the iOS Simulator.</td>
+</tr>
+</tbody>
+</table>
+
+  </body>
+</html>
+
