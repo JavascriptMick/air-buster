@@ -10,3 +10,36 @@ of writing your own CSS rules. For a full list of class names in the theme
 refer to http://docs.nativescript.org/ui/theme.
 */
 @import 'nativescript-theme-core/css/core.light.css';
+
+.fa {
+   font-family: 'FontAwesome', fontawesome-webfont';
+}
+
+button, label, stack-layout {
+    horizontal-align: center;    
+}
+
+.V-GOOD{
+  color: green;
+}
+
+.GOOD{
+  color: green;
+}
+
+.FAIR{
+    color: orange;
+}
+
+.POOR{
+    color: orangered;
+}
+
+.V-POOR{
+    color: orangered;
+}
+
+.HAZARD{
+  color: red;
+}
+

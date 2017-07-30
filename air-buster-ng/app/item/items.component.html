@@ -23,11 +23,15 @@ These components make use of several CSS class names that are part of the Native
 core theme, such as p-20, btn, h2, and list-group. You can view a full list of the
 class names available for styling your app at https://docs.nativescript.org/ui/theme.
 -->
-<StackLayout class="page">
-    <ListView [items]="items" class="list-group">
-        <ng-template let-item="item">
-            <Label [nsRouterLink]="['/item', item.id]" [text]="item.name"
-                class="list-group-item"></Label>
-        </ng-template>
-    </ListView>
+<StackLayout class="page" orientation="vertical">
+    <Label text="Your Risk Rating" style="font-size: 12;"></Label>
+    
+    <Label text="{{ aqiRating }}" style="font-size: 42;" [ngClass]="aqiRating"></Label>
+
+    <Label text="{{icons['fa-icon-map-marker'] + ' ' + locationString}}" class="fa" style="font-size: 30;"></Label>
+    
+    <Label text="{{ dayName }}" style="font-size: 18;"></Label>
+    
+    <Slider #sl minValue="0" maxValue="5" [value]="dayOffset" (valueChange)="onChangeDayOffset(sl.value)"></Slider>
+
 </StackLayout>
